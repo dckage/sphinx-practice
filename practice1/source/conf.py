@@ -29,7 +29,11 @@ author = 'dckage'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.seqdiag',
 ]
+
+# Fontpath for seqdiag (truetype font)
+seqdiag_fontpath = '/System/Library/Fonts/ヒラギノ丸ゴ ProN W4.ttc'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
